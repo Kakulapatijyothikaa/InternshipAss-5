@@ -1,0 +1,49 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin-bottom: 30px;
+}
+
+section {
+    padding: 60px 0;
+}
+
+footer {
+    background-color: #343a40;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.hero {
+    background-image: url('https://www.innomatics.in/wp-content/uploads/2023/01/AWARD-PAGE.jpg');
+    height: 50vh;
+    background-size: cover;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero .btn {
+    margin-top: 110px; /* Optional: adjust the space above the button */
+    padding: 10px 20px;
+    background-color: #007bff;  /* Primary blue color */
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.hero .btn:hover {
+    background-color: #0056b3; /* Darker shade for hover effect */
+}
+
+.card {
+    margin-bottom: 20px;
+}
